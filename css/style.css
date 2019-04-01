@@ -1,0 +1,15 @@
+/* #div-id{border:1px solid wheat;background-image: url(/img/pexels-photo-257092.jpeg)} */
+
+/* #img{width: 302px;} */
+
+/* #parag ,img{height:306px;width: 302px;float: left; } */
+
+/* #parag h3{text-align: justify; float: right;} */
+/* .mytable{text-align: center} */
+/* .mytable th{color: bla;} */
+/* .mytable td{color: blueviolet;} */
+/* .mytable tr{color: crimson;} */
+
+.responsive-h1{
+    font-size: 10vw;
+}
