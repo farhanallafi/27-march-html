@@ -1,0 +1,59 @@
+header{
+    color:white;
+    padding: 14px;
+    text-align: center;
+    background-color: black;
+
+}
+nav{
+    background-color: rgb(29, 25, 25);
+    border: 1px solid black;
+    overflow: hidden;
+    text-align: center;
+    width:auto;
+  
+    
+}
+header,footer,nav,section,article,p{
+    width: 100%;
+} 
+nav a{
+    display: inline-block;
+    color: rgb(204, 188, 219);
+    padding: 16px;
+    text-decoration: none;
+    font-size: 17px;
+   
+   
+
+    
+}
+nav a:hover{
+    background-color: burlywood;
+}
+
+main{
+    background-color: whitesmoke;
+    width: 100%;
+    
+
+}
+article,p{
+    font-family: Verdana;
+    font-size: 20px;
+
+}
+footer{
+    color:white;
+    padding: 20px;
+    text-align: center;
+    background-color: black;
+}
+@media screen and (max-width:600px){
+nav,a{
+
+    width: 100%;
+   
+    
+}
+}

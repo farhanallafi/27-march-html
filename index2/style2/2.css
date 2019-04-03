@@ -1,0 +1,163 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: lightgoldenrodyellow;
+} 
+header{
+
+    position: relative;
+    border:1px solid darkgoldenrod;
+    width: 100%; 
+    border-radius:6px ;
+    
+}
+header h2{
+    font-weight: normal;
+    margin-top: 0;
+
+}
+.header h1,#logo{
+    display: inline-block;
+    margin-bottom: 0;
+}
+
+nav{
+    background-color: wheat;
+    border: 4px solid blue;
+    text-align: right;
+    border-radius: 20px;
+    width: 44%;
+    bottom: 10px;
+    right: 10px;
+    position: absolute;
+} 
+nav a{
+    display: inline-block;
+    color: black;
+    padding: 16px;
+    text-decoration: none;
+    font-size: 17px;
+    border-radius: 20px;
+}
+nav a:hover{
+    background-color: burlywood;
+}
+#banner_image{
+    width: 100%;
+    border-radius: 5px;
+    border:5px solid darkgoldenrod;
+    height: 200px;
+    background: url()
+    
+}
+
+ aside{
+    width: 40%;
+    color: brown;
+    background-color: gray;
+    height:595px;
+    float: right; 
+    border: 3px solid darkgreen;
+    text-align: center;
+
+ }
+ #h1aside{
+     text-align: center;
+ }
+ #monkey{
+    border-radius: 10px ;
+    padding: 80px;
+
+ }
+
+article{
+    width: 60%;
+    border: 3px solid purple;
+    border-radius: 4px;
+    /* height:400px;
+    overflow: hidden; 
+    float: left; */
+}
+ article,aside{
+    float: left;
+    border: 3px solid darkgreen;
+    text-align: justify;
+    padding: 10px;
+    border-radius: 4px;
+ }
+
+
+
+footer{
+    width: 100%;
+    display: inline-block;
+    border: 3px solid blue;
+    /* color:white;
+    padding: 20px;
+    text-align: justify;
+    background-color: burlywood;  */
+  
+}
+#footer{
+    height:200px;
+    padding: 2%;
+
+}
+.div5,.div3,.div4{
+    float: left;
+    width: 30%;
+
+}
+.div5{
+    border: 3px solid blue;
+    height:170px;
+    border-radius: 10px;
+
+}
+.div3{
+    border:3px solid black;
+    height:170px;
+    border-radius: 10px;
+}
+.div3 img{
+    width: 70px;
+    height: 70px;
+
+}
+.div4{
+    border: 3px solid black;
+    height:170px;
+    border-radius: 10px;
+}
+
+
+
+
+
+/* .a1{
+    border: 3px solid blue;
+    width: 30%;
+    height:200px;
+    float: left;
+}
+.a2{
+    border: 3px solid blue;
+    width: 30%;
+    height:200px;
+    float: left;
+}
+.a3{
+    border: 3px solid blue;
+    width: 30%;
+    height:200px;
+    float: left;
+} */
+/* @media screen and (max-width:600px){
+nav,a{
+
+    width: 100%;
+   
+    
+}
+} */

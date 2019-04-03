@@ -1,0 +1,108 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: yellow;
+} 
+header{
+
+     padding: 14px;
+    background-color: wheat;
+    text-align: left;
+    border-radius: 20px;
+    border: red;
+    width: auto; 
+    
+}
+nav{
+    background-color: wheat;
+    border: 4px solid blue;
+    text-align: right;
+    border-radius: 20px;
+    width: 44%;
+    float: right;
+}
+nav a{
+    display: inline-block;
+    color: black;
+    padding: 16px;
+    text-decoration: none;
+    font-size: 17px;
+    border-radius: 20px;
+}
+nav a:hover{
+    background-color: burlywood;
+}
+.div1{
+
+    width:100%;
+    height:150px;
+    overflow:hidden;
+    border-radius: 20px;
+    background-image: url(/img/6.jpg)
+}
+
+ aside{
+    width: 40%;
+    color: brown;
+    background-color: blueviolet;
+    /* height:400px;
+    float: right; */
+ }
+
+article{
+    width: 60%;
+    /* height:400px;
+    overflow: hidden; 
+    float: left; */
+}
+ article,aside{
+    float: left;
+    border: 1px solid darkgreen;
+    text-align: justify;
+    padding: 10px;
+ }
+
+
+
+footer{
+    width: 100%;
+    display: inline-block;
+    border: 3px solid blue;
+    /* color:white;
+    padding: 20px;
+    text-align: justify;
+    background-color: burlywood;  */
+  
+}
+.div2,.div3,.div4{
+    float: left;
+    width: 33%;
+
+}
+/* .a1{
+    border: 3px solid blue;
+    width: 30%;
+    height:200px;
+    float: left;
+}
+.a2{
+    border: 3px solid blue;
+    width: 30%;
+    height:200px;
+    float: left;
+}
+.a3{
+    border: 3px solid blue;
+    width: 30%;
+    height:200px;
+    float: left;
+} */
+/* @media screen and (max-width:600px){
+nav,a{
+
+    width: 100%;
+   
+    
+}
+} */
