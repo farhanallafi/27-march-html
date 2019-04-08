@@ -1,0 +1,79 @@
+.styling{
+    color: red;
+    font-size: 2.2em;
+    border: 0.2em dashed rgb(21, 22, 65);
+}
+.styling1{
+    font-size: 2.5em;
+    border: 0.1em dotted rgb(33, 10, 0225);
+    color:rgb(0, 206, 0);
+    color:rgb(0, 0, 255);
+    background-color: red;
+}
+.styling3{
+    font-size: 3em;
+    color:rgba(8, 221, 218, 0,2) ;
+    background-color: rgba(33, 22, 122, 0.1);
+    border: 20px solid rgb(0, 221, 0);
+    width: 300px;
+    padding-left: 50px;
+    padding-right: 50px;
+    box-sizing: border-box;
+    margin: 0 auto ;
+
+}
+.styling3:hover{
+    color: rgb(122, 12, 144);
+    font-size: 3.4em;
+    /* padding: 100px;
+    margin: 100px;
+     */  
+     box-sizing: border-box;
+}
+img{
+    border: solid red;
+    background-color: brown;
+    display: block;
+    margin: 0 auto ;
+    
+  
+}
+body{
+    background-color:rgba(8, 221, 22, 0.3);
+}
+.main{
+    height: 200px;
+    width: 600px;
+    background-color: rgb(46, 209, 209);
+    border: 1px solid rgba(33, 22, 122, 1);
+    /* padding-left:40px ;
+    padding-right: 40px;
+    padding-top: 40px;
+    padding-bottom: 40px;    */
+    padding: 50px 10px 70px 20px;
+    margin-top: 100px;
+    margin-right:150px;
+    margin-bottom:200px ;
+    margin-left: 90px;
+    margin: 0 auto;
+
+    
+}
+.main div{
+    float: left;
+    border: 1px solid rgb(5, 2, 24);
+    width: 200px;
+    height: 150px;
+    box-sizing: border-box;
+
+
+}
+.div1{
+    background-color: red;
+}
+.div2{
+    background-color: wheat;
+}
+.div3{
+    background-color: green;
+}
